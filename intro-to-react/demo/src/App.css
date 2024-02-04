@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+}
+
+.App {
+  text-align: center;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+input {
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  flex-grow: 1;
+  margin-right: 0.5rem;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  background-color: #007bff;
+  color: rgba(0,0,0,0.8);
+  cursor: pointer;
+
+  /* FOR EDITING */
+  margin-left: 5px;
+}
+
+button:hover {
+  background-color: #0056b3;
+  color: #fff;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #ccc;
+
+  /* FOR EDITING */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  cursor: pointer;
+}
+
+/* FOR EDITING */
+.edit-buttons {
+  min-width: 200px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* FOR DRAG AND DROP */
+.drag-over {
+  background-color: rgba(0, 0, 255, 0.1);
+  border: 1px dashed #007bff;
+}
+
+/* FOR TOGGLING */
+li.completed .text {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+
+nav {
+  position: absolute;
+  top: 5vh;
+  left: 5vw;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav li {
+  margin-left: 10px;
+}
