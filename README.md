@@ -1,1 +1,1 @@
-# 24w-intro-to-frontend-development-miniseries
+# 24W Intro to Frontend Development Miniseries
